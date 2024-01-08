@@ -1,0 +1,180 @@
+id,title,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied,selftext
+1913k8k,Who are the GOATS of DE?,89,82,hot-bulbasur,2024-01-07 21:46:35,https://www.reddit.com/r/dataengineering/comments/1913k8k/who_are_the_goats_of_de/,0.91,False,False,False,False,"This can a subjective question, DE is still niche and there is no such thing as a ranking but wanted to know if you guys have a high role model in the area.
+
+For example in programming there are well respected names on the likes of Linus Torvald or Guido Van Rossum.
+
+This can be any inspiring youtuber, book writer, DE influencer or whatever."
+190vs11,Meta Round 1 Technical Interview,28,11,bolognaisass,2024-01-07 16:23:09,https://www.reddit.com/r/dataengineering/comments/190vs11/meta_round_1_technical_interview/,0.86,False,False,False,False,"Howdy compadres,
+
+I have an upcoming first round technical Meta de interview. I'm curious if anyone have any info on the general difficulty of the questions? Would stratascratch mediums cover it or should I amp it up? A lot of info on the meta swe interviews out there but not a ton on the de ones (at least for this specific stage).
+
+I'm fairly confident I can handle most joins/aggregations etc.. but you know the deal, interviews like this make you question your skillset."
+19121xo,Data engineering cases from real companies,24,10,Prestigious-Dot-71,2024-01-07 20:46:33,https://www.reddit.com/r/dataengineering/comments/19121xo/data_engineering_cases_from_real_companies/,0.88,False,False,False,False,"Hello,
+
+I am looking to sharpen my skills as a Data Engineer to work in sectors I am interested in. Is there such thing as a website where Data Engineering problems from real companies are posted to be solved and/or used for practice? I am partial to the finance and gaming sectors. Thanks."
+1916jyx,Will Apache Beam die out?,14,30,RevolutionStill4284,2024-01-07 23:48:52,https://www.reddit.com/r/dataengineering/comments/1916jyx/will_apache_beam_die_out/,0.82,False,False,False,False,"Apache Beam seems to have a steeper learning curve than Spark, yet I can see some adoption. What are the advantages of it over Spark or other similar tools? Will it become popular, even more popular than Spark, or just die out?"
+191cpwm,What do you like and not like about being a data engineer?,10,5,imjusthereforPMstuff,2024-01-08 04:41:42,https://www.reddit.com/r/dataengineering/comments/191cpwm/what_do_you_like_and_not_like_about_being_a_data/,0.92,False,False,False,False,"I was a technical/data PM that switched to the data/analytics engineering space because I got tired of talking to all teams and people ata company every day and actually enjoyed the peace and quiet of running queries, updating data models, using Looker, getting fresh (as we call it at my place lol instead of raw) to usable data for the data science team etc. What I don’t like about it, is that sometimes an ad hoc request from sales or an incompetent mba grad will be top priority for leadership, and I have to export the results in google sheets or something. Like isn’t that something for an analyst to do??
+
+What about you?"
+190qv2a,Best method to update SQL table from AWS S3,9,18,Wayne_dj,2024-01-07 12:12:54,https://www.reddit.com/r/dataengineering/comments/190qv2a/best_method_to_update_sql_table_from_aws_s3/,0.81,False,False,False,False,"Hi,
+
+There is an application which is creating/updating/deleting processed csv files in AWS s3 bucket. I need to design a system which can update a SQL table based on data which is present in the bucket in near real time. This table will act as a source for a PowerBI dashboard.
+
+Foe example - let's say there are 10 csv files for which I have created a RDS table. Now, if the application deletes 2 files, then the data for those files should be removed from the RDS table. If the application overwrites a file, then the data should be updated  and so on.
+
+One of the potential solution I have in my mind is to create a lambda with trigger on the bucket which will copy data from s3 bucket to table. For deleting, I. can execute a delete query using cursor operations. However, this doesn't seems very efficient.
+
+Another solution I was thinking is to setup a glue crawler and create a athena table. But this might not be very cost efficient since it charges per query execution.
+
+I am not a full fledged Data Engineer. Would love to hear other's ideas.
+
+Thanks"
+1919pch,What problems do you face with the documentation software in your company?,8,11,brequinn89,2024-01-08 02:10:09,https://www.reddit.com/r/dataengineering/comments/1919pch/what_problems_do_you_face_with_the_documentation/,0.91,False,False,False,False,"Most of the companies I have seen use Confluence or Google Docs to document their releases or how to setup codebase, software architecture or how things work in general.
+One of the problems I personally face is that these documentations never get updated or are just too cumbersome to search and read.
+
+What are the problems you face? What software does your company use for this purpose? Would you or your company be willing to pay for software that solves these problems?"
+1911c54,Why Probabilistic Linkage is More Accurate than Fuzzy Matching For Data Deduplication,7,2,RobinL,2024-01-07 20:17:40,https://www.robinlinacre.com/fellegi_sunter_accuracy/,0.89,False,False,False,False,
+19158af,How would you approach this project? Need some expertise,2,9,AerotyneInternationa,2024-01-07 22:53:38,https://www.reddit.com/r/dataengineering/comments/19158af/how_would_you_approach_this_project_need_some/,0.67,False,False,False,False,"Hello everyone,
+
+My boss just quit the company and his project dropped on my lap, and I'm a bit hesitant on how to approach it. Maybe someone can point me in the right direction here..
+
+The premise is this: we have a book of customers who own multiple properties (sometimes in the thousands per customer). Each month, they send us excel/csv spreadsheets with a list of all existing properties,their corresponding addresses and a bunch of other data for us to review. As you can expect, many customers have different formats (how columns are ordered, ""location"" instead of ""address"", ""building #"" vs ""building number"", number of columns etc etc).
+
+What we are trying to do here is create a database with all these properties, which we will be updating monthly as new data come in. The plan is to use Azure SQL database to store this data.
+
+The question is, what are my options to get all that data normalized and brought to a single format so I can feed it into the database? The way I see it, I would need to create some sort of a profile for each customer in order to parse their spreadsheets correctly and have their data rearranged to fit my database. Not really sure.  Has anyone here worked on something similar?
+
+Really need your expertise here! Thanks a lot in advance"
+190trrs,Dbt developer certification,2,2,mamuonroll,2024-01-07 14:51:41,https://www.reddit.com/r/dataengineering/comments/190trrs/dbt_developer_certification/,0.6,False,False,False,False,"I am planning to take dbt certification exam , can you recommend any resources?"
+19179j7,First DE Role - How to Prepare,2,3,i_am_baldilocks,2024-01-08 00:19:24,https://www.reddit.com/r/dataengineering/comments/19179j7/first_de_role_how_to_prepare/,0.75,False,False,False,False,"Hey guys,
+
+Excited to announce that I just landed my first role as a data engineer at a public health insurance agency!  Very excited - I have been wanting to break into data engineering in healthcare for a long time.
+
+I was a career data analyst before this and have a graduate degree in data science, which I am currently not using.  I was curious on people's recommendations for how to prepare for the role in the 2 weeks leading up to when the job begins.  I have thought about learning data structures from a Coursera course, thinking it could be good to brush up on the fundamentals, but it doesn't seem too immediately relevant.  Wondering if there were any books or things people could recommend.  I was taking a look at Fundamentals of Data Engineering but found it hard to grasp without having concrete grounding being in data engineering in an enterprise in the moment.  I'll look into that book more once I am established in the org.
+
+They seem pretty old school, but want to modernize their tech stack with more APIs and Python which is partially why they wanted to hire me.  So maybe that could give some indications on how to prepare.
+
+Let me know.  12 days until I start and I want to do something useful with my time.  Thanks!"
+191esj8,1 Billion Rows Challenge: Snowflake vs Databend,2,0,matt78whoop,2024-01-08 06:39:38,https://www.databend.com/blog/2024-01-05-1brows/,0.75,False,False,False,False,I thought this article was super interesting on how Cloud Data Warehouses fare with the challenge: https://www.morling.dev/blog/one-billion-row-challenge/
+191i9zx,How to do joins in SQL using AI — Introducing Vanna.ai,0,0,phicreative1997,2024-01-08 10:32:59,https://python.plainenglish.io/how-to-do-joins-in-sql-using-ai-introducing-vanna-ai-752a2eafd930,0.5,False,False,False,False,SQL using LLMs like ChatGPT and Mistral.
+191hlw3,Needs for Distributed Processing,0,0,Cultural_Guarantee69,2024-01-08 09:47:08,https://www.reddit.com/r/dataengineering/comments/191hlw3/needs_for_distributed_processing/,0.33,False,False,False,False,"Hello everyone!
+
+I’d like to know what you think are the needs for distributed processing (which focuses more precisely on MapReduce treatments, Spark/Hadoop frameworks, etc.) in the industry atm.
+
+I’m currently working for key accounts customers and I don’t see any need really. Still, that’s the career I’d like to pursue.
+
+Is it outdated already? Too niche?
+
+Do you have any advices on:
+- Kinds of structures I could aim for,
+- Most relevant companies and/or
+- City hubs to work in/for?"
+191ear6,Unleash the Power of ChatGPT: Master Prompt Engineering with Dynamic Frameworks!,0,0,KeyBid5470,2024-01-08 06:09:16,https://www.reddit.com/r/dataengineering/comments/191ear6/unleash_the_power_of_chatgpt_master_prompt/,0.5,False,False,False,False," Hello,
+
+Tired of generic, robotic responses from your favorite language models? Do you crave \*\*deeper conversations, more creative outputs, and **tailored solutions** from ChatGPT? If so, buckle up, because I'm here to introduce you to the **game-changing world of advanced prompt engineering with ChatGPT frameworks!**
+
+In my recent blog post, Advanced Prompt Engineering with ChatGPT Frameworks: [https://www.factspan.com/blogs/advanced-prompt-engineering-with-chatgpt-frameworks/](https://www.factspan.com/blogs/advanced-prompt-engineering-with-chatgpt-frameworks/), I dive deep into these powerful frameworks that take ChatGPT interaction to a whole new level. No more struggling with vague prompts or getting stuck in repetitive loops!
+
+**Here's a taste of what you'll discover:**
+
+* **Dynamic frameworks like CLEAR:** This powerful tool structures your approach to challenges, helping you understand limitations, propose actionable solutions, and anticipate outcomes. Imagine tackling complex business and project scenarios with laser focus!
+* **Crafting success across domains:** From data analysis and AI development to marketing campaigns and personal growth, these frameworks offer tailored methodologies for diverse applications. Think of it as a swiss army knife for your language model interactions!
+* **Boosting clear thinking and problem-solving:** Get ready to ditch the confusion and embrace structured approaches that guide you towards effective solutions and strategic planning.
+
+**But wait, there's more!**
+
+My blog delves into specific frameworks, explores their strengths and weaknesses, and equips you with the knowledge to choose the right tool for the job. Whether you're a seasoned data scientist, a curious entrepreneur, or simply someone who wants to get the most out of ChatGPT, this guide has something for you.
+
+**So, what are you waiting for?** Head over to my blog, unleash the power of prompt engineering, and transform your ChatGPT interactions from basic to brilliant!"
+191dcxw,What kind of ML do DE jobs usually require knowledge of?,0,1,SnooPineapples7791,2024-01-08 05:16:06,https://www.reddit.com/r/dataengineering/comments/191dcxw/what_kind_of_ml_do_de_jobs_usually_require/,0.5,False,False,False,False,"I know DE is different than MLE but it's true that in quite a few small/medium size companies both positions aren't well defined and can share work and attributions
+
+
+So I ask: what subset of ML knowledge and exp do you think is asked the most by the market in these cases ? From your personal experiences
+
+1) Statistical ML: More statistical models like Regression and such
+
+2) Deep Learning and Neural networks in general: Trendy stuff with Tools like TF and Pytorch
+
+2.1) Computer Vision: Subset of the above
+
+2.2) NLP: also a subset
+
+
+I am an aspiring DE learning the basics of the field but I do want to know a bit about ML for career purposes, but I know the field is very deep and complex, so if I could focus on a subset that's more likely to improve me DE career that would be great
+
+So I am excited to hear your thoughts guys!"
+191a1k3,GCP Data Engineering Jobs,0,2,PurpleCurrent3576,2024-01-08 02:25:49,https://www.reddit.com/r/dataengineering/comments/191a1k3/gcp_data_engineering_jobs/,0.5,False,False,False,False,I’m a Data Engineer having most of the experience in GCP cloud. I see more Data Engineer job postings on AWS cloud comparatively than GCP. How do companies look at a candidate resume when their tech stack doesn’t match but has the relevant experience.
+190ztmw,Seeking Advice: Automating ClickHouse Views from JSON Schema/OpenAPI,0,2,soltiamosamita,2024-01-07 19:14:43,https://www.reddit.com/r/dataengineering/comments/190ztmw/seeking_advice_automating_clickhouse_views_from/,0.5,False,False,False,False,"Greetings!
+
+I'm currently seeking advice on generating materialized views from OpenAPI/JSON Schema. Are there recommended tools or best practices for achieving this without manual conversions/reinventing the wheel?
+
+More details: we have an OpenAPI YML schema that describes what kind of data arrives from the product to the S3 server. And from it, to the database.
+
+We convert the YML to JSON Schema for the validator to deploy, and, fetched from the S3 and validated against that JSON Schema protocol, the data comes to our ClickHouse database. We have different versions of the protocol, and we select the particular version based on the ""version"" field in the data.
+
+And so we get the validated/unvalidated raw data. But we need to parse the huge JSON that comprises the most information, with all the game analytics fields and such. At the moment, we write Materialized Views for this task manually. All of the information needed for writing these MatViews is contained withing the protocol, but we do not use it.
+
+I was thinking of writing a Python script that would generate these views based on the JSON Schema variant of the protocol. This is kinda intuitive, and based on the actual data that the validator processes.
+
+But still I wonder. I doubt that I am the only one who got a task like that in the whole industry. Are there any tools, or maybe best practices, to accomplish that task?
+
+Your insights are highly appreciated.
+
+Thank you!"
+191f3mg,I need a complex calculation and I am lost. I don't know if it's the right thread to post,0,1,ikyorince,2024-01-08 06:59:02,https://www.reddit.com/r/dataengineering/comments/191f3mg/i_need_a_complex_calculation_and_i_am_lost_i_dont/,0.25,False,False,False,False,"given a sql table with a column MASTER\_ID, CHANGE\_DATE, moneyamount, cashiername and the following records
+
+&#x200B;
+
+MASTER\_ID, CHANGE\_DATE, moneyamount, cashiername
+
+1, 1/2/22 , 22, shafee
+
+1, 1/3/22 , 23, shafee
+
+1, 1/8/23 , 25, Labiba
+
+1, 1/7/23 , 25, Labiba
+
+2, 1/2/22 , 22, Abanti
+
+2, 1/9/22 , 22, Abanti
+
+2, 1/5/23 , 25, Labiba
+
+3, 1/6/22 , 23, shafee
+
+3, 1/3/22 , 23, shafee
+
+3, 1/2/22 , 22, shafee
+
+3, 1/3/22 , 23, Abanti
+
+4, 1/8/23 , 25, Labiba
+
+&#x200B;
+
+&#x200B;
+
+I want to generate a new table where I have the all columns except change date, columns but for each column, I want the average number of days between changes based on CHANGE\_DATE
+
+&#x200B;
+
+for example
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+
+MASTER\_ID, avg\_moneyamount, avg\_cashiername
+
+1 , 132.67 , 370"
+1910hct,I just want to be a good DE,0,6,ArgenZet,2024-01-07 19:42:40,https://www.reddit.com/r/dataengineering/comments/1910hct/i_just_want_to_be_a_good_de/,0.33,False,False,False,False,"Hello everyone. Maybe this sounds silly, but I've been working at a data startup for 2 years. I have worked with Python, PySpark, SQL, multiple AWS services, DBT, and several other things. However, the company lacks good practices, and thanks to my good performance, I am increasingly taking a greater role in the projects.
+
+Is it foolish to have a feeling that the project is ""a time bomb"", believing that at any moment it can explode? Is it something normal?
+
+Finally, if you can recommend ways to learn best practices, or at least what the basics are for a project to be well put together from the beginning, that would be great. (courses, books, YouTube channels, etc.)"
+190ygby,List of Experts in Data Engineering on Linkedin.!!,0,2,rajveersolanki9,2024-01-07 18:17:21,https://www.reddit.com/r/dataengineering/comments/190ygby/list_of_experts_in_data_engineering_on_linkedin/,0.14,False,False,False,False,"Hey Fellas,
+
+I’ll keep it short. I’m trying to create an outstanding connections on Linkedin. So, can everyone plz suggest me Linkedin accounts of Prodigies in Data Engineering whose posts, Blogs, youtube channels can help ACE Data engineering role."
