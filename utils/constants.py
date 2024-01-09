@@ -24,10 +24,13 @@ POST_FIELDS = (
     "author",
     "created_utc",
     "url",
-    "upvote_ratio",
     "over_18",
     "edited",
     "spoiler",
     "stickied",
-    "selftext",
 )
+
+AWS_ACCESS_KEY_ID = parser.get("aws", "aws_access_key_id")
+AWS_SECRET_ACCESS_KEY_ID = parser.get("aws", "aws_secret_access_key")
+AWS_BUCKET_NAME = parser.get("aws", "aws_bucket_name")
+AWS_REGION = parser.get("aws", "aws_region")

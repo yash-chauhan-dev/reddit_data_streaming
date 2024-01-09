@@ -1,3 +1,5 @@
 *Env
 *conf
 logs/
+*.pyc
+data/

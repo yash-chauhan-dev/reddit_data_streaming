@@ -44,8 +44,6 @@ def transform_data(post_df: pd.DataFrame):
     ).astype(bool)
     post_df["num_comments"] = post_df["num_comments"].astype(int)
     post_df["score"] = post_df["score"].astype(int)
-    post_df["upvote_ratio"] = post_df["upvote_ratio"].astype(str)
-    post_df["selftext"] = post_df["selftext"].astype(str)
     post_df["title"] = post_df["title"].astype(str)
     return post_df
 

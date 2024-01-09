@@ -7,6 +7,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from pipelines.reddit_pipeline import reddit_pipeline
+from pipelines.aws_s3_pipeline import upload_s3_pipeline
 
 default_args = {"owner": "Yash Chauhan", "start_date": datetime(2024, 1, 8)}
 
@@ -33,3 +34,10 @@ extract = PythonOperator(
     },
     dag=dag,
 )
+
+# upload_to_s3
+upload_s3 = PythonOperator(
+    task_id="upload_s3", python_callable=upload_s3_pipeline, dag=dag
+)
+
+extract >> upload_s3
